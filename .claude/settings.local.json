@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 src/extract/extract_excel.py)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

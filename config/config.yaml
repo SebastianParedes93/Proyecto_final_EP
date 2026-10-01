@@ -1,0 +1,51 @@
+project: 
+  name: Proyecto_final_EP
+  version: 1.0
+  description: Descripción del proyecto final EP
+  author: Sebastian Paredes, Eduardo Villa, Alejandro, Michael Escobar
+  license: MIT
+  repository: https://github.com/sebastianparedes93/Proyecto_final_EP
+  date: 2026-09-28
+
+paths:
+  data_dir: data
+  bronze_dir: data/bronze 
+  silver_dir: data/silver
+  gold_dir: data/gold
+  logs_dir: logs
+  notebooks_dir: notebooks
+
+sources:
+# Fuente #1
+  proyecciones_poblacion_dane:
+    path: data/bronze/1.proyecciones_poblacion_dane.xlsx
+    filename: 1.proyecciones_poblacion_dane.xlsx
+    filetype: xlsx
+    sheetname: PobMunicipalxÁreaSexoEdad
+
+# Fuente #2
+  relacion_ips_capacidad_instalada:
+    path: data/bronze/2.relacion_ips_capacidad_instalada.csv
+    filename: 2.relacion_ips_capacidad_instalada.csv
+    filetype: csv
+
+
+# Fuente #3
+  registro_prestadores_salud:
+    path: data/bronze/3.registro_prestadores_salud.xlsx
+    filename: 3.registro_prestadores_salud.xlsx
+    filetype: xlsx
+    sheetname: Registro_Especial_de_Prestadore
+
+# Fuente #4
+  divipola:
+    path: data/bronze/4.divipola.xlsx
+    filename: 4.divipola.xlsx
+    filetype: xlsx
+    sheetname: Cabeceras - Centros Poblados
+
+# Fuente #5
+  tiempo:
+    path: data/bronze/5.tiempo.csv
+    filename: 5.tiempo.csv
+    filetype: csv

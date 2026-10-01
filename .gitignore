@@ -1,0 +1,15 @@
+# Datos (pesados, exceden el límite de 100 MB de GitHub)
+/data/bronze/1.proyecciones_poblacion_dane.xlsx
+/data/silver/datos_relacion_ips_capacidad_instalada_clean.csv
+
+
+# Entorno virtual
+venv/
+
+# Variables de entorno / secretos
+.env
+
+# Caché de Python
+__pycache__/
+*.pyc
+.DS_Store
