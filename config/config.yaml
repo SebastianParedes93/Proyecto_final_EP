@@ -2,7 +2,7 @@ project:
   name: Proyecto_final_EP
   version: 1.0
   description: Descripción del proyecto final EP
-  author: Sebastian Paredes, Eduardo Villa, Alejandro, Michael Escobar
+  author: Sebastian Paredes, Eduardo Villa, Alejandro Mosquera, Michael Escobar
   license: MIT
   repository: https://github.com/sebastianparedes93/Proyecto_final_EP
   date: 2026-09-28
@@ -37,6 +37,7 @@ sources:
     filetype: xlsx
     sheetname: Registro_Especial_de_Prestadore
 
+
 # Fuente #4
   divipola:
     path: data/bronze/4.divipola.xlsx
@@ -49,3 +50,6 @@ sources:
     path: data/bronze/5.tiempo.csv
     filename: 5.tiempo.csv
     filetype: csv
+
+
+
